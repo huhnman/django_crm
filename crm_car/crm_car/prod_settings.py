@@ -15,7 +15,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'crm_car',
-        'USER': 'bombom',
+        'USER': 'confi',
         'PASSWORD': '123$yyTR',
         'HOST': 'localhost',
         'PORT': '5432'
