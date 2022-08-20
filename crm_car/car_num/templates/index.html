@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+<!-- Navbar contetn-->
+{% block navbar-content%}
+<i style="color: yellowgreen;" class="fas fa-user-alt"></i>&nbsp;&nbsp; Numbers list
+{% endblock navbar-content%}
+
+
+<!-- Page content -->
+
+{% block content %}
+<div class="container">
+    <br><br><br>
+
+    <table class="table table-bordered" id="examp" style="text-align: center;">
+        <thead class="table-success">
+            <tr>
+                <th>№ Торг. места</th>
+                <th>Номер ТС</th>
+                <th>ФИО</th>
+                <th>Тел.</th>
+                <th>Статус</th>
+                <th>Перемещение</th>
+                <th>Выезд</th>
+                <th>Автор</th>
+                <th>Коммент</th>
+                <th>Время</th>
+            </tr>
+        </thead>
+        <!-- JSON Response from backend -->
+        
+    </table>
+
+</div> <!-- END // Container -->
+
+<br><br><br><br>
+{% endblock content %}
